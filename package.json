@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -14,5 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "main": "server.js",
+  "repository": "https://github.com/swrw90/meetup-app.git",
+  "author": "Seth Watson <seth.watson1@gmail.com>",
+  "license": "MIT"
 }
